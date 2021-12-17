@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+body{
+    font-family: 'Source Sans 3', sans-serif;!important;
+}
+
+.carousel img {
+    height: 80vh;
+}
+
+.display-7{
+    font-size: 1.2rem!important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.very-bold{
+    font-weight: 900!important;
+}
+
+.bold{
+    font-weight: 500!important;
+}
+
+.carousel-caption{
+    left: 7%!important;
+    right:unset!important;
+    top: 20%;
+    text-align: left!important;
+}
+
+.carousel-indicators{
+    display: none!important; 
+  }
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none!important;
+}

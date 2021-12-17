@@ -1,0 +1,23 @@
+.carousel img {
+    height: 80vh;
+}
+
+.display-7{
+    font-size: 1.2rem!important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.very-bold{
+    font-weight: 900!important;
+}
+
+.bold{
+    font-weight: 500!important;
+}
+
+.carousel-caption{
+    left: 0
+}
