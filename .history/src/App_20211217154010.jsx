@@ -229,7 +229,7 @@ PROCEDURY NA CZAS PANDEMII COVID-19.
 
 <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark" className="py-6 p-auto mt-5">
   <Container>
-    <Nav className="justify-content-start w-75 m-auto">
+    <Nav className="justify-content-start w-75">
       <Nav.Link href="#features" className="mx-3 text-light display-7 very-bold">SMILE MED</Nav.Link>
       <Nav.Link href="#features" className="mx-3 text-light display-7">Cennik</Nav.Link>
       <Nav.Link href="#pricing" className="mx-3 text-light display-7">Zespół</Nav.Link>

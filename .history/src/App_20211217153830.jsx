@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
 
-<Navbar expand="lg" variant="light" bg="light">
+<Navbar expand="lg" variant="light" bg="light" className="">
   <Container>
   <Navbar.Brand href="#home"><span className="display-5 very-bold p-2">SMILE MED</span></Navbar.Brand>
 
@@ -37,7 +37,7 @@ function App() {
   </Container>
 </Navbar>
 
-<Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="py-3 p-auto">
+<Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="py-3 p-auto fixed-top">
   <Container>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -229,7 +229,7 @@ PROCEDURY NA CZAS PANDEMII COVID-19.
 
 <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark" className="py-6 p-auto mt-5">
   <Container>
-    <Nav className="justify-content-start w-75 m-auto">
+    <Nav className="justify-content-start">
       <Nav.Link href="#features" className="mx-3 text-light display-7 very-bold">SMILE MED</Nav.Link>
       <Nav.Link href="#features" className="mx-3 text-light display-7">Cennik</Nav.Link>
       <Nav.Link href="#pricing" className="mx-3 text-light display-7">Zespół</Nav.Link>
