@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/smile-med/static/css/main.044bc5db.css",
-    "main.js": "/smile-med/static/js/main.c47c5029.js",
+    "main.css": "/smile-med/static/css/main.072076c0.css",
+    "main.js": "/smile-med/static/js/main.fdbef0f3.js",
     "static/js/787.53908990.chunk.js": "/smile-med/static/js/787.53908990.chunk.js",
     "static/media/0.jpg": "/smile-med/static/media/0.e2f5d162d8fd134607e2.jpg",
+    "static/media/gallery(7).jpg": "/smile-med/static/media/gallery(7).bb710472b48107a39a90.jpg",
+    "static/media/gallery(6).jpg": "/smile-med/static/media/gallery(6).041c0ea3fe8b8f298243.jpg",
     "static/media/5.jpg": "/smile-med/static/media/5.7cb5322c436c046de377.jpg",
     "static/media/3.jpg": "/smile-med/static/media/3.3e51e44e2f0145592067.jpg",
     "static/media/2.jpg": "/smile-med/static/media/2.e2bd3cbde1498dfa54db.jpg",
+    "static/media/gallery(5).jpg": "/smile-med/static/media/gallery(5).9c15f2f1384324790ac5.jpg",
+    "static/media/gallery(8).jpg": "/smile-med/static/media/gallery(8).5f40a4167cc049820c74.jpg",
     "static/media/4.jpg": "/smile-med/static/media/4.1bece1ba19273ba0054f.jpg",
+    "static/media/gallery(3).jpg": "/smile-med/static/media/gallery(3).cc7c5642dcb666eb8500.jpg",
     "static/media/1.jpg": "/smile-med/static/media/1.a599e92fd17193499846.jpg",
+    "static/media/gallery(2).jpg": "/smile-med/static/media/gallery(2).f56f6ffede17f1b9fdcb.jpg",
     "static/media/profile(4).jpg": "/smile-med/static/media/profile(4).4752c02fc0ceb07dbcd1.jpg",
+    "static/media/gallery(1).jpg": "/smile-med/static/media/gallery(1).5714f60a5e841ababe9b.jpg",
     "static/media/profile(1).jpg": "/smile-med/static/media/profile(1).b375ea70d21df20fc6ce.jpg",
+    "static/media/gallery(4).jpg": "/smile-med/static/media/gallery(4).2f15f3454138e63c582a.jpg",
     "static/media/profile(3).jpg": "/smile-med/static/media/profile(3).eec7b20e6ec33bda8b51.jpg",
     "static/media/profile(2).jpg": "/smile-med/static/media/profile(2).f93be3d60f3a647dd4b8.jpg",
     "static/media/card2.jpg": "/smile-med/static/media/card2.87ba9c9b687bc3f95908.jpg",
@@ -18,12 +26,12 @@
     "static/media/card4.jpg": "/smile-med/static/media/card4.f726065e42213fd9bce5.jpg",
     "static/media/card3.jpg": "/smile-med/static/media/card3.d43a772d7ea66b53f5a3.jpg",
     "index.html": "/smile-med/index.html",
-    "main.044bc5db.css.map": "/smile-med/static/css/main.044bc5db.css.map",
-    "main.c47c5029.js.map": "/smile-med/static/js/main.c47c5029.js.map",
+    "main.072076c0.css.map": "/smile-med/static/css/main.072076c0.css.map",
+    "main.fdbef0f3.js.map": "/smile-med/static/js/main.fdbef0f3.js.map",
     "787.53908990.chunk.js.map": "/smile-med/static/js/787.53908990.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.044bc5db.css",
-    "static/js/main.c47c5029.js"
+    "static/css/main.072076c0.css",
+    "static/js/main.fdbef0f3.js"
   ]
 }
