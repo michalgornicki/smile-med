@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+body{
+    font-family: 'Crimson Pro', serif!important;
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+.content{
+    min-height: 100vh;
+}
+
+.navbar-brand{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.carousel img {
+    height: 80vh;
+}
+.display-65{
+    font-size: 2rem!important;
+}
+
+.display-7{
+    font-size: 1.3rem!important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.very-bold{
+    font-weight: 900!important;
+}
+
+.bold{
+    font-weight: 500!important;
+}
+
+.carousel-caption{
+    left: 7%!important;
+    right:unset!important;
+    top: 20%;
+    text-align: left!important;
+}
+
+.carousel-indicators{
+    display: none!important; 
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    display: none!important;
+}
+
+.nav-link{
+    color: black!important;
+}
+
+.text-green{
+    color:rgb(42, 212, 0)!important;
+}
+
+.card-text{
+    overflow: hidden;
+}
+
+.py-6{
+    padding-top: 4rem!important;
+    padding-bottom: 4rem!important;
+}
+
+.height-70vh{
+    height: 70vh;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .carousel-caption{
+        left: 7%!important;
+        right:unset!important;
+        top: 0%;
+        text-align: left!important;
+    }
+}
