@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Route, HashRouter as Router, Routes, Link } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes, Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
