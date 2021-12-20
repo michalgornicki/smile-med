@@ -8,10 +8,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import Profile1 from "./profile(1).jpg";
-import Profile2 from "./profile(2).jpg";
-import Profile3 from "./profile(3).jpg";
-import Profile4 from "./profile(4).jpg";
+import Profile1 from "../profile(1).jpg";
+import Profile2 from "../profile(2).jpg";
+import Profile3 from "../profile(3).jpg";
+import Profile4 from "../profile(4).jpg";
 
 
 export default function Team() {

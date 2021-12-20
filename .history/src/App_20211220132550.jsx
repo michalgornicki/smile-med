@@ -22,18 +22,14 @@ import Card3 from "./card3.jpg";
 import Card4 from "./card4.jpg";
 import Home from "./Pages/Home";
 import Team from "./Pages/Team";
-import Office from "./Pages/Office";
-import News from "./Pages/News";
 
 function App() {
   return (
     <Router>
       <div>
       <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/Team" element={<Team/>} />
-          <Route path="/Office" element={<Office/>} />
-          <Route path="/News" element={<News/>} />
+          <Route path="//" element={<Home/>} />
+          <Route path="/Pages/Team" element={<Team/>} />
         </Routes>
       </div>
 

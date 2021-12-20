@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
@@ -9,16 +9,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import Slide0 from "./0.jpg";
-import Slide1 from "./1.jpg";
-import Slide2 from "./2.jpg";
-import Slide3 from "./3.jpg";
-import Slide4 from "./4.jpg";
-import Slide5 from "./5.jpg";
-import Card1 from "./card1.jpg";
-import Card2 from "./card2.jpg";
-import Card3 from "./card3.jpg";
-import Card4 from "./card4.jpg";
+import Slide0 from "../0.jpg";
+import Slide1 from "../1.jpg";
+import Slide2 from "../2.jpg";
+import Slide3 from "../3.jpg";
+import Slide4 from "../4.jpg";
+import Slide5 from "../5.jpg";
+import Card1 from "../card1.jpg";
+import Card2 from "../card2.jpg";
+import Card3 from "../card3.jpg";
+import Card4 from "../card4.jpg";
 
 
 export default function Home() {
@@ -60,10 +60,10 @@ export default function Home() {
             <Nav.Link className="mx-3 text-dark display-7">
             <Link to="/team">Zespół</Link>
             </Nav.Link>
-            <Nav.Link href="#pricing" className="mx-3 text-dark display-7">
-              Gabinet
+            <Nav.Link className="mx-3 text-dark display-7">
+            <Link to="/office">Gabinet</Link>
             </Nav.Link>
-            <Nav.Link href="#news" className="mx-3 text-dark display-7">
+            <Nav.Link className="mx-3 text-dark display-7"><Link to="/"
               Aktualności
             </Nav.Link>
             <NavDropdown
@@ -90,7 +90,7 @@ export default function Home() {
                 Stomatologia dziecięca
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#pricing" className="mx-3 text-dark display-7">
+            <Nav.Link  className="mx-3 text-dark display-7">
               Cennik
             </Nav.Link>
           </Nav>
@@ -100,7 +100,7 @@ export default function Home() {
 
     <div className="content">
 
-    <Carousel variant="dark" fade interval="3000" pause="none">
+    <Carousel controls={false} indicators={false} variant="dark" fade interval="3000" pause="none">
       <Carousel.Item className="">
         <img className="d-block w-100" src={Slide0} alt="First slide" />
         <Carousel.Caption className="mobile-hide">
@@ -190,7 +190,7 @@ export default function Home() {
       </div>
     </div>
 
-    <Carousel variant="dark" interval="3000" pause="none">
+    <Carousel controls={false} indicators={false}  variant="dark" interval="3000" pause="none">
       <Carousel.Item className="">
         <img className="d-block w-100" src={Slide1} alt="First slide" />
         <Carousel.Caption>
@@ -282,20 +282,20 @@ export default function Home() {
           <Nav.Link href="#features" className="mx-3 text-light display-7">
             Cennik
           </Nav.Link>
-          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
+          <Nav.Link  className="mx-3 text-light display-7">
             Zespół
           </Nav.Link>
-          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
+          <Nav.Link  className="mx-3 text-light display-7">
             Gabinet
           </Nav.Link>
           
-          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
+          <Nav.Link  className="mx-3 text-light display-7">
             Aktualności
           </Nav.Link>
-          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
+          <Nav.Link  className="mx-3 text-light display-7">
             telefon: 662-444-222
           </Nav.Link>
-          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
+          <Nav.Link  className="mx-3 text-light display-7">
             napisz do nas: smile@med.pl
           </Nav.Link>
         </Nav>

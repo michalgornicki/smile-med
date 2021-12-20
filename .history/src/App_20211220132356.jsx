@@ -21,9 +21,7 @@ import Card2 from "./card2.jpg";
 import Card3 from "./card3.jpg";
 import Card4 from "./card4.jpg";
 import Home from "./Pages/Home";
-import Team from "./Pages/Team";
-import Office from "./Pages/Office";
-import News from "./Pages/News";
+import Team from "./Team";
 
 function App() {
   return (
@@ -32,8 +30,6 @@ function App() {
       <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/Team" element={<Team/>} />
-          <Route path="/Office" element={<Office/>} />
-          <Route path="/News" element={<News/>} />
         </Routes>
       </div>
 
