@@ -78,10 +78,6 @@ img {
     height: 70vh;
 }
 
-.w-50-d{
-    width: 50%!important;
-    }
-
 
 
 @media screen and (max-width: 800px) {
@@ -97,12 +93,8 @@ img {
         height: 40vh;
     }
 
-    .w-90-m{
-    width: 90%!important;
-    }
-
-    .mobile-hide{
-        display: none;
+    .w-100-m{
+    width: 100%!important;
     }
 
 }

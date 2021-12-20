@@ -103,7 +103,7 @@ export default function Home() {
     <Carousel variant="dark" fade interval="3000" pause="none">
       <Carousel.Item className="">
         <img className="d-block w-100" src={Slide0} alt="First slide" />
-        <Carousel.Caption className="mobile-hide">
+        <Carousel.Caption>
           <p className="display-7 my-0 text-green">
             Zapraszamy do naszej kliniki
           </p>
@@ -112,14 +112,14 @@ export default function Home() {
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={Slide2} alt="Second slide" />
-        <Carousel.Caption className="mobile-hide">
+        <Carousel.Caption>
           <p className="display-7 my-0 text-green">Poznaj nasz personel</p>
           <h5 className="display-4 bold">Profesjonalny zespół</h5>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={Slide3} alt="Third slide" />
-        <Carousel.Caption className="mobile-hide">
+        <Carousel.Caption className=" mobile-hide">
           <p className="display-7 my-0 text-green">
             Wysoki standard usług stomatologicznych
           </p>
@@ -128,7 +128,7 @@ export default function Home() {
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={Slide4} alt="Third slide" />
-        <Carousel.Caption className="mobile-hide">
+        <Carousel.Caption>
           <p className="display-7 my-0 text-green">
             Zapewniamy 100% zadowolenia z naszych usług
           </p>
@@ -137,7 +137,7 @@ export default function Home() {
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={Slide5} alt="Third slide" />
-        <Carousel.Caption className="mobile-hide">
+        <Carousel.Caption>
           <p className="display-7 my-0 text-green">
             Przystępne ceny, najwyższa jakość
           </p>
@@ -272,7 +272,7 @@ export default function Home() {
       className="py-6 p-auto mt-5"
     >
       <Container>
-        <Nav className="justify-content-center w-100 m-auto">
+        <Nav className="justify-content-start w-75 m-auto">
           <Nav.Link
             href="#features"
             className="mx-3 text-light display-7 very-bold"
@@ -288,15 +288,11 @@ export default function Home() {
           <Nav.Link href="#pricing" className="mx-3 text-light display-7">
             Gabinet
           </Nav.Link>
-          
+          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
+            Dla lekarzy
+          </Nav.Link>
           <Nav.Link href="#pricing" className="mx-3 text-light display-7">
             Aktualności
-          </Nav.Link>
-          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
-            telefon: 662-444-222
-          </Nav.Link>
-          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
-            napisz do nas: smile@med.pl
           </Nav.Link>
         </Nav>
       </Container>

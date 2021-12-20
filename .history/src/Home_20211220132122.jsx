@@ -272,7 +272,7 @@ export default function Home() {
       className="py-6 p-auto mt-5"
     >
       <Container>
-        <Nav className="justify-content-center w-100 m-auto">
+        <Nav className="justify-content-start w-75 m-auto">
           <Nav.Link
             href="#features"
             className="mx-3 text-light display-7 very-bold"

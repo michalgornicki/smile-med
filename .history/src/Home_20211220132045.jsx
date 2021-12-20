@@ -272,7 +272,7 @@ export default function Home() {
       className="py-6 p-auto mt-5"
     >
       <Container>
-        <Nav className="justify-content-center w-100 m-auto">
+        <Nav className="justify-content-start w-75 m-auto">
           <Nav.Link
             href="#features"
             className="mx-3 text-light display-7 very-bold"
@@ -288,15 +288,17 @@ export default function Home() {
           <Nav.Link href="#pricing" className="mx-3 text-light display-7">
             Gabinet
           </Nav.Link>
-          
+          <Nav.Link href="#pricing" className="mx-3 text-light display-7">
+            Dla lekarzy
+          </Nav.Link>
           <Nav.Link href="#pricing" className="mx-3 text-light display-7">
             Aktualności
           </Nav.Link>
           <Nav.Link href="#pricing" className="mx-3 text-light display-7">
-            telefon: 662-444-222
+            telefon: 662-
           </Nav.Link>
           <Nav.Link href="#pricing" className="mx-3 text-light display-7">
-            napisz do nas: smile@med.pl
+            Aktualności
           </Nav.Link>
         </Nav>
       </Container>

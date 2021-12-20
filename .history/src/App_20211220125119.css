@@ -82,7 +82,8 @@ img {
     width: 50%!important;
     }
 
-
+.navbar-collapse{
+    }
 
 @media screen and (max-width: 800px) {
     
@@ -99,10 +100,6 @@ img {
 
     .w-90-m{
     width: 90%!important;
-    }
-
-    .mobile-hide{
-        display: none;
     }
 
 }
