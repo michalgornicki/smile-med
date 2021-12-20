@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smile-med/static/css/main.c85bcbbe.css",
-    "main.js": "/smile-med/static/js/main.082d0361.js",
+    "main.js": "/smile-med/static/js/main.e4ba3b57.js",
     "static/js/787.53908990.chunk.js": "/smile-med/static/js/787.53908990.chunk.js",
     "static/media/0.jpg": "/smile-med/static/media/0.e2f5d162d8fd134607e2.jpg",
     "static/media/5.jpg": "/smile-med/static/media/5.7cb5322c436c046de377.jpg",
@@ -19,11 +19,11 @@
     "static/media/card3.jpg": "/smile-med/static/media/card3.d43a772d7ea66b53f5a3.jpg",
     "index.html": "/smile-med/index.html",
     "main.c85bcbbe.css.map": "/smile-med/static/css/main.c85bcbbe.css.map",
-    "main.082d0361.js.map": "/smile-med/static/js/main.082d0361.js.map",
+    "main.e4ba3b57.js.map": "/smile-med/static/js/main.e4ba3b57.js.map",
     "787.53908990.chunk.js.map": "/smile-med/static/js/787.53908990.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c85bcbbe.css",
-    "static/js/main.082d0361.js"
+    "static/js/main.e4ba3b57.js"
   ]
 }
