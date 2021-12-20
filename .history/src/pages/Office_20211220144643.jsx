@@ -6,6 +6,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
 import Carousel from "react-bootstrap/Carousel";
 import Gallery1 from "../gallery(1).jpg";
 import Gallery2 from "../gallery(2).jpg";
