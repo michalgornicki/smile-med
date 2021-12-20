@@ -36,7 +36,7 @@ export default function Home() {
     >
 
 <Container>
-        <Navbar.Brand>
+        <Navbar.Brand href="#home">
           <span className="display-5 very-bold p-2">SMILE MED</span>
         </Navbar.Brand>
 
@@ -285,10 +285,10 @@ export default function Home() {
           <Link to="/team">Zespół</Link>
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/office">Gabinet</Link>
+          <Link to="/team">Gabinet</Link>
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/news">Aktualności</Link>
+            <linkAktualności
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
             telefon: 662-444-222

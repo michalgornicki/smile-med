@@ -24,12 +24,11 @@ export default function Office() {
       expand="lg"
       bg="light"
       variant="light"
-      className="py-3 p-auto flex-column shadow "
+      className="py-3 p-auto flex-column shadow zIndex1"
     >
 
 <Container>
-<Navbar.Brand>
-
+        <Navbar.Brand href="#home">
           <span className="display-5 very-bold p-2">SMILE MED</span>
         </Navbar.Brand>
 
@@ -125,32 +124,30 @@ export default function Office() {
         className="py-6 p-auto mt-5"
       >
         <Container>
-        <Nav className="justify-content-center w-100 m-auto">
-          <Nav.Link
-            className="mx-3 text-light display-7 very-bold"
-          >
-            SMILE MED
-          </Nav.Link>
-          <Nav.Link className="mx-3 text-light display-7">
-            Początek
-          </Nav.Link>
-          <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/team">Zespół</Link>
-          </Nav.Link>
-          <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/office">Gabinet</Link>
-          </Nav.Link>
-          <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/news">Aktualności</Link>
-          </Nav.Link>
-          <Nav.Link  className="mx-3 text-light display-7">
-            telefon: 662-444-222
-          </Nav.Link>
-          <Nav.Link  className="mx-3 text-light display-7">
-            napisz do nas: smile@med.pl
-          </Nav.Link>
-        </Nav>
-      </Container>
+          <Nav className="justify-content-center w-100 m-auto">
+            <Nav.Link
+             
+              className="mx-3 text-light display-7 very-bold"
+            >
+              SMILE MED
+            </Nav.Link>
+            <Nav.Link className="mx-3 text-light display-7">
+              Początek
+            </Nav.Link>
+            <Nav.Link className="mx-3 text-light display-7">Zespół</Nav.Link>
+            <Nav.Link className="mx-3 text-light display-7">Gabinet</Nav.Link>
+
+            <Nav.Link className="mx-3 text-light display-7">
+              Aktualności
+            </Nav.Link>
+            <Nav.Link className="mx-3 text-light display-7">
+              telefon: 662-444-222
+            </Nav.Link>
+            <Nav.Link className="mx-3 text-light display-7">
+              napisz do nas: smile@med.pl
+            </Nav.Link>
+          </Nav>
+        </Container>
       </Navbar>
     </div>
   );

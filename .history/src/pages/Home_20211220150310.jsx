@@ -36,7 +36,7 @@ export default function Home() {
     >
 
 <Container>
-        <Navbar.Brand>
+        <Navbar.Brand href="#home">
           <span className="display-5 very-bold p-2">SMILE MED</span>
         </Navbar.Brand>
 

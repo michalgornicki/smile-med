@@ -26,17 +26,20 @@ export default function Home() {
 
   return (
     <div>
+    <Navbar expand="lg" variant="light" bg="light">
+
+    </Navbar>
 
     <Navbar
       collapseOnSelect
       expand="lg"
       bg="light"
       variant="light"
-      className="py-3 p-auto flex-column shadow zIndex100"
+      className="py-3 p-auto flex-column shadow"
     >
 
 <Container>
-        <Navbar.Brand>
+        <Navbar.Brand href="#home">
           <span className="display-5 very-bold p-2">SMILE MED</span>
         </Navbar.Brand>
 
@@ -282,13 +285,13 @@ export default function Home() {
             Początek
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/team">Zespół</Link>
+            Zespół
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/office">Gabinet</Link>
+            Gabinet
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/news">Aktualności</Link>
+            Aktualności
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
             telefon: 662-444-222

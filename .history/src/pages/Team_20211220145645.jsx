@@ -16,8 +16,8 @@ import Profile4 from "../profile(4).jpg";
 
 export default function Team() {
   return (
+    
     <div>
-
     <Navbar
       collapseOnSelect
       expand="lg"
@@ -27,8 +27,7 @@ export default function Team() {
     >
 
 <Container>
-<Navbar.Brand>
-
+        <Navbar.Brand href="#home">
           <span className="display-5 very-bold p-2">SMILE MED</span>
         </Navbar.Brand>
 
@@ -144,24 +143,25 @@ export default function Team() {
         variant="dark"
         className="py-6 p-auto mt-5"
       >
-       <Container>
+        <Container>
         <Nav className="justify-content-center w-100 m-auto">
           <Nav.Link
             className="mx-3 text-light display-7 very-bold"
           >
             SMILE MED
           </Nav.Link>
-          <Nav.Link className="mx-3 text-light display-7">
+          <Nav.Link  className="mx-3 text-light display-7">
             Początek
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/team">Zespół</Link>
+            Zespół
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/office">Gabinet</Link>
+            Gabinet
           </Nav.Link>
+          
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/news">Aktualności</Link>
+            Aktualności
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
             telefon: 662-444-222

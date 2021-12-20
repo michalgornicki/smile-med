@@ -26,30 +26,19 @@ export default function Home() {
 
   return (
     <div>
+    <Navbar expand="lg" variant="light" bg="light">
+
+    </Navbar>
 
     <Navbar
       collapseOnSelect
       expand="lg"
       bg="light"
       variant="light"
-      className="py-3 p-auto flex-column shadow zIndex100"
+      className="py-3 p-auto"
     >
 
-<Container>
-        <Navbar.Brand>
-          <span className="display-5 very-bold p-2">SMILE MED</span>
-        </Navbar.Brand>
-
-        <Nav className="justify-content-end">
-          <Nav.Link  className="mx-3 text-green display-7">
-            telefon: 662-444-222
-          </Nav.Link>
-          <Nav.Link  className="mx-3 text-green display-7">
-            napisz do nas: smile@med.pl
-          </Nav.Link>
-        </Nav>
-      </Container>
-
+      
       <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -282,13 +271,13 @@ export default function Home() {
             Początek
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/team">Zespół</Link>
+            Zespół
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/office">Gabinet</Link>
+            Gabinet
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
-          <Link to="/news">Aktualności</Link>
+            Aktualności
           </Nav.Link>
           <Nav.Link  className="mx-3 text-light display-7">
             telefon: 662-444-222
