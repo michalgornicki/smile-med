@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/smile-med/static/css/main.9efb7edd.css",
-    "main.js": "/smile-med/static/js/main.f0f8bc81.js",
+    "main.css": "/smile-med/static/css/main.1cf8103b.css",
+    "main.js": "/smile-med/static/js/main.b17bbf48.js",
     "static/js/787.53908990.chunk.js": "/smile-med/static/js/787.53908990.chunk.js",
     "static/media/0.jpg": "/smile-med/static/media/0.e2f5d162d8fd134607e2.jpg",
     "static/media/gallery(7).jpg": "/smile-med/static/media/gallery(7).bb710472b48107a39a90.jpg",
@@ -26,12 +26,12 @@
     "static/media/card4.jpg": "/smile-med/static/media/card4.f726065e42213fd9bce5.jpg",
     "static/media/card3.jpg": "/smile-med/static/media/card3.d43a772d7ea66b53f5a3.jpg",
     "index.html": "/smile-med/index.html",
-    "main.9efb7edd.css.map": "/smile-med/static/css/main.9efb7edd.css.map",
-    "main.f0f8bc81.js.map": "/smile-med/static/js/main.f0f8bc81.js.map",
+    "main.1cf8103b.css.map": "/smile-med/static/css/main.1cf8103b.css.map",
+    "main.b17bbf48.js.map": "/smile-med/static/js/main.b17bbf48.js.map",
     "787.53908990.chunk.js.map": "/smile-med/static/js/787.53908990.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9efb7edd.css",
-    "static/js/main.f0f8bc81.js"
+    "static/css/main.1cf8103b.css",
+    "static/js/main.b17bbf48.js"
   ]
 }
