@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+body{
+    font-family: 'Crimson Pro', serif!important;
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+.content{
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none!important;
+    color: unset!important;
+}
+
+.navbar-brand{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    cursor: pointer;
+}
+
+.carousel img {
+    height: 80vh;
+}
+.display-65{
+    font-size: 2rem!important;
+}
+
+.display-7{
+    font-size: 1.3rem!important;
+}
+
+img {
+    object-fit: cover;
+}
+
+.very-bold{
+    font-weight: 900!important;
+}
+
+.bold{
+    font-weight: 500!important;
+}
+
+.carousel-caption{
+    left: 7%!important;
+    right:unset!important;
+    top: 20%;
+    text-align: left!important;
+}
+
+
+
+.nav-link{
+    color: black!important;
+}
+
+.text-green{
+    color:rgb(42, 212, 0)!important;
+}
+
+.card-text{
+    overflow: hidden;
+}
+
+.py-6{
+    padding-top: 4rem!important;
+    padding-bottom: 4rem!important;
+}
+
+.height-70{
+    height: 70vh;
+}
+
+.w-50-d{
+    width: 50%!important;
+    }
+
+.zIndex100{
+    z-index: 100;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+    .carousel-caption{
+        left: 7%!important;
+        right:unset!important;
+        top: 0%;
+        text-align: left!important;
+    }
+
+    .height-40{
+        height: 40vh;
+    }
+
+    .w-90-m{
+    width: 90%!important;
+    }
+
+    .mobile-hide{
+        display: none;
+    }
+
+    .display-none{
+        display: none!important;
+    }
+
+}
