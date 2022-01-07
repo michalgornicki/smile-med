@@ -33,7 +33,7 @@ export default function Home() {
  const [scrolled, setScrolled] = useState(false);
 
   window.onscroll = () => {
-        if (window.pageYOffset > 1500){
+        if (window.pageYOffset > 2300){
         if (scrolled === false) {counter();}
         setScrolled(true)
         }

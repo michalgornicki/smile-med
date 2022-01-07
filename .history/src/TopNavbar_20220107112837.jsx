@@ -67,7 +67,7 @@ className="py-3 w-75 m-auto"
           Stomatologia dziecięca
         </NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link  className="mx-3 text-secondary display-7">
+      <Nav.Link  className="mx-3 text-dark display-7">
         Cennik
       </Nav.Link>
       <Nav.Link  className="mx-3 text-white bg-black display-7 display-none text-nowrap">

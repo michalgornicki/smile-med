@@ -16,11 +16,6 @@ import Card2 from "../card2.jpg";
 import Card3 from "../card3.jpg";
 import Card4 from "../card4.jpg";
 import { useEffect } from 'react';
-import { Container } from "react-bootstrap";
-import medal from "../medal.png";
-import tooth from "../tooth.png";
-import smile from "../smile.png";
-
 
 
 export default function Home() {
@@ -33,7 +28,7 @@ export default function Home() {
  const [scrolled, setScrolled] = useState(false);
 
   window.onscroll = () => {
-        if (window.pageYOffset > 1500){
+        if (window.pageYOffset > 700){
         if (scrolled === false) {counter();}
         setScrolled(true)
         }
@@ -45,19 +40,19 @@ export default function Home() {
     var k = 0;
 
     var intervSpeed = setInterval(function () {
-      if (i < 768) document.getElementById("counter1").innerHTML = ++i;
+      if (i < 3) document.getElementById("counter1").innerHTML = ++i;
       else clearInterval(intervSpeed);
-    }, 5);
+    }, 1000);
 
     var intervPower = setInterval(function () {
-      if (j < 198) document.getElementById("counter2").innerHTML = ++j + "+";
+      if (j < 20) document.getElementById("counter2").innerHTML = ++j + "+";
       else clearInterval(intervPower);
-    }, 15);
+    }, 200);
 
     var intervDispl = setInterval(function () {
-      if (k < 32) document.getElementById("counter3").innerHTML = ++k + "+";
+      if (k < 2369) document.getElementById("counter3").innerHTML = ++k + "+";
       else clearInterval(intervDispl);
-    }, 150);
+    }, 1);
   };
 
 
@@ -143,7 +138,7 @@ export default function Home() {
       </div>
       <div>
         <div className=" mt-4 very-bold display-7 text-center">
-          WIZYTA W GABINECIE:
+          2. WIZYTA W GABINECIE:
         </div>
 
         <div>
@@ -168,33 +163,6 @@ export default function Home() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-
-    <Container className="height-80 position-relative">
-
-<div className="counter-container d-flex flex-lg-row flex-column justify-content-evenly w-75 m-auto text-center text-black display-65">
-    <div className="d-flex flex-column my-3">
-      <div>
-        <img className="counter-icon w-lg-50 w-25" src={smile} alt="" />
-      </div>
-      <div id="counter1">0</div>
-      <div>zadowoleni klienci</div>
-    </div>
-    <div className="d-flex flex-column my-3">
-      <div>
-        <img className="counter-icon w-lg-50 w-25" src={tooth} alt="" />
-      </div>
-      <div id="counter2">0</div>
-      <div>wyleczone zęby</div>
-    </div>
-    <div className="d-flex flex-column my-3">
-      <div>
-        <img className="counter-icon w-lg-50 w-25" src={medal} alt="" />
-      </div>
-      <div id="counter3">0</div>
-      <div>nagrody</div>
-    </div>
-  </div>
-  </Container>
 
     
     <div className="display-5 w-75 m-auto mt-5" id="news">Aktualności</div>
@@ -258,7 +226,29 @@ export default function Home() {
     </CardGroup>
     </Link>
 
-
+    <div className="counter-container d-flex flex-lg-row flex-column justify-content-evenly w-50 m-auto text-center text-white display-6">
+        <div className="d-flex flex-column my-3">
+          <div>
+            <img className="counter-icon w-lg-50 w-25" src={slide0} alt="" />
+          </div>
+          <div id="counter1">0</div>
+          <div>happy clients</div>
+        </div>
+        <div className="d-flex flex-column my-3">
+          <div>
+            <img className="counter-icon w-lg-50 w-25" src={} alt="" />
+          </div>
+          <div id="counter2">0</div>
+          <div>projects done</div>
+        </div>
+        <div className="d-flex flex-column my-3">
+          <div>
+            <img className="counter-icon w-lg-50 w-25" src={} alt="" />
+          </div>
+          <div id="counter3">0</div>
+          <div>hours spent</div>
+        </div>
+      </div>
 
     </div>  
 

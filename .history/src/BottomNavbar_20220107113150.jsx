@@ -18,7 +18,7 @@ const BottomNavbar = () => {
         variant="light"
         className="py-6 p-auto mt-5"
       >
-       <Container className="text-secondary">
+       <Container className="text-secona">
         <Nav className="justify-content-center w-100 m-auto">
           <Nav.Link
             className="mx-3 display-7 very-bold"   onClick={() => window.scrollTo(0, 0)}

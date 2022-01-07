@@ -17,9 +17,7 @@ import Card3 from "../card3.jpg";
 import Card4 from "../card4.jpg";
 import { useEffect } from 'react';
 import { Container } from "react-bootstrap";
-import medal from "../medal.png";
-import tooth from "../tooth.png";
-import smile from "../smile.png";
+import award from "../awa.jpg";
 
 
 
@@ -33,7 +31,7 @@ export default function Home() {
  const [scrolled, setScrolled] = useState(false);
 
   window.onscroll = () => {
-        if (window.pageYOffset > 1500){
+        if (window.pageYOffset > 2300){
         if (scrolled === false) {counter();}
         setScrolled(true)
         }
@@ -169,33 +167,6 @@ export default function Home() {
       </Carousel.Item>
     </Carousel>
 
-    <Container className="height-80 position-relative">
-
-<div className="counter-container d-flex flex-lg-row flex-column justify-content-evenly w-75 m-auto text-center text-black display-65">
-    <div className="d-flex flex-column my-3">
-      <div>
-        <img className="counter-icon w-lg-50 w-25" src={smile} alt="" />
-      </div>
-      <div id="counter1">0</div>
-      <div>zadowoleni klienci</div>
-    </div>
-    <div className="d-flex flex-column my-3">
-      <div>
-        <img className="counter-icon w-lg-50 w-25" src={tooth} alt="" />
-      </div>
-      <div id="counter2">0</div>
-      <div>wyleczone zęby</div>
-    </div>
-    <div className="d-flex flex-column my-3">
-      <div>
-        <img className="counter-icon w-lg-50 w-25" src={medal} alt="" />
-      </div>
-      <div id="counter3">0</div>
-      <div>nagrody</div>
-    </div>
-  </div>
-  </Container>
-
     
     <div className="display-5 w-75 m-auto mt-5" id="news">Aktualności</div>
     <Link to="/news"><CardGroup className="my-2 w-75 mx-auto">
@@ -258,7 +229,32 @@ export default function Home() {
     </CardGroup>
     </Link>
 
+    <Container className="height-80 position-relative">
 
+    <div className="counter-container d-flex flex-lg-row flex-column justify-content-evenly w-75 m-auto text-center text-black display-65">
+        <div className="d-flex flex-column my-3">
+          <div>
+            <img className="counter-icon w-lg-50 w-25" src={Slide0} alt="" />
+          </div>
+          <div id="counter1">0</div>
+          <div>zadowoleni klienci</div>
+        </div>
+        <div className="d-flex flex-column my-3">
+          <div>
+            <img className="counter-icon w-lg-50 w-25" src={Slide0} alt="" />
+          </div>
+          <div id="counter2">0</div>
+          <div>wyleczone zęby</div>
+        </div>
+        <div className="d-flex flex-column my-3">
+          <div>
+            <img className="counter-icon w-lg-50 w-25" src={Slide0} alt="" />
+          </div>
+          <div id="counter3">0</div>
+          <div>nagrody</div>
+        </div>
+      </div>
+      </Container>
 
     </div>  
 

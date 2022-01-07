@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap");
 
 body {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Crimson Pro", serif !important;
   overflow-x: hidden;
   height: fit-content;
 }
@@ -50,6 +50,10 @@ img {
   text-align: left !important;
 }
 
+.nav-link {
+  color: black !important;
+}
+
 .text-green {
   color: rgb(42, 212, 0) !important;
 }
@@ -67,8 +71,8 @@ img {
   height: 70vh;
 }
 
-.height-80 {
-    height: 80vh;
+.height-70 {
+    height: 70vh;
   }
 
 .w-50-d {

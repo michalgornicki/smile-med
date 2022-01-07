@@ -70,7 +70,7 @@ className="py-3 w-75 m-auto"
       <Nav.Link  className="mx-3 text-secondary display-7">
         Cennik
       </Nav.Link>
-      <Nav.Link  className="mx-3 text-white bg-black display-7 display-none text-nowrap">
+      <Nav.Link  className="mx-3 text-white bg-secondary display-7 display-none text-nowrap">
       ZAREZERWUJ WIZYTĘ
     </Nav.Link>
     </Nav>

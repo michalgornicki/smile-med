@@ -37,16 +37,16 @@ className="py-3 w-75 m-auto"
       <Nav.Link className="mx-3 text-secondary display-7">
       <Link to="/team">Zespół</Link>
       </Nav.Link>
-      <Nav.Link className="mx-3 text-secondary display-7">
+      <Nav.Link className="mx-3 text-dark display-7">
       <Link to="/office">Gabinet</Link>
       </Nav.Link>
-      <Nav.Link className="mx-3 text-secondary display-7">
+      <Nav.Link className="mx-3 text-dark display-7">
       <Link to="/news">Aktualności</Link>
       </Nav.Link>
       <NavDropdown
         title="Usługi"
         id="collasible-nav-dropdown"
-        className="mx-3 text-secondary display-7"
+        className="mx-3 text-dark display-7"
       >
         <NavDropdown.Item>
           Ortodoncja
@@ -67,7 +67,7 @@ className="py-3 w-75 m-auto"
           Stomatologia dziecięca
         </NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link  className="mx-3 text-secondary display-7">
+      <Nav.Link  className="mx-3 text-dark display-7">
         Cennik
       </Nav.Link>
       <Nav.Link  className="mx-3 text-white bg-black display-7 display-none text-nowrap">
